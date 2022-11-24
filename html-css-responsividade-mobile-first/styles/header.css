@@ -5,6 +5,7 @@
     align-items: center;
     background-color: var(--branco);
     position: relative;
+    padding: 0 1em;
 }
 
 .cabeçalho__menu-hamburguer {
