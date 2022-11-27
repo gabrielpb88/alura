@@ -1,0 +1,31 @@
+.recentes {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    padding: 1em 0.5em;
+}
+
+.recentes__titulo {
+    text-align: center;
+    color: var(--branco);
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0.5em 0 1em 0;
+}
+
+.recentes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recentes__item {
+    background-color: var(--laranja);
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.recentes__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+}
