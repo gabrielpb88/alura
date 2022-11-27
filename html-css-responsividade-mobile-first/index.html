@@ -47,7 +47,7 @@
   <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
   <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
 </section>
-<section class="carousel">
+<section>
   <!-- Slider main container -->
   <div class="swiper">
     <!-- If we need pagination -->
@@ -86,6 +86,47 @@
       <a href="#" class="botões__link">Saiba mais</a>
     </div>
   </div>
+</section>
+<section>
+  <h2 class="carrossel__titulo">Mais vendidos</h2>
+  <div class="swiper">
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/Lideranca.svg" alt="Livro sobre Liderança"></div>
+      <div class="swiper-slide"><img src="images/Javascript.svg" alt="Livro sobre Javascript Assertivo"></div>
+      <div class="swiper-slide"><img src="images/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
+      <div class="swiper-slide"><img src="images/Nodejs.svg" alt="Livro sobre Nodejs"></div>
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="card">
+    <div class="card_descrição">
+      <div class="descrição">
+        <img src="images/Estrelinhas.svg" alt="Avaliação 5 estrelas" class="descrição__avaliação">
+        <h3 class="descrição__titulo">Autora do Mês</h3>
+        <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+        <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+      </div>
+      <img src="images/Escritora.png" alt="Foto da escritora do mês" class="descrição__imagem">
+    </div>
+
+    <div class="card__botões">
+      <ul class="botões">
+        <li class="botões__item"><img src="images/Favoritos.svg" alt="Favoritos"></li>
+        <li class="botões__item"><img src="images/Compras.svg" alt="Carrinho de Compras"></li>
+      </ul>
+      <a href="#" class="botões__link">Saiba mais</a>
+    </div>
+  </div>
+
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

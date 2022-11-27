@@ -69,3 +69,17 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.carrossel__titulo {
+    background-color: var(--branco);
+    color: var(--laranja);
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.descrição__avaliação {
+    padding: 0.5em 0;
+}
