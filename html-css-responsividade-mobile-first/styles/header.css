@@ -35,6 +35,8 @@
     display: block;
     position: absolute;
     top: 100%;
+    left: 0;
+    z-index: 2;
 }
 .lista-menu__titulo,
 .lista-menu__item {
@@ -53,4 +55,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.container__botao {
+    display: none;
 }
