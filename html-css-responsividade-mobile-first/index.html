@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles/reset.css" type="text/css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link href="styles.css" type="text/css" rel="stylesheet">
   <title>AluraBooks</title>
 </head>
@@ -45,5 +47,58 @@
   <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
   <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
 </section>
+<section class="carousel">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/Gestão.svg" alt="Livro sobre Gestão"></div>
+      <div class="swiper-slide"><img src="images/Lideranca.svg" alt="Livro sobre Liderança"></div>
+      <div class="swiper-slide"><img src="images/MEAN.svg" alt="Livro sobre MEAN"></div>
+      <div class="swiper-slide"><img src="images/Nodejs.svg" alt="Livro sobre Nodejs"></div>
+      <div class="swiper-slide"><img src="images/Portugol.svg" alt="Livro sobre lógica com Portugol"></div>
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="card">
+    <div class="card_descrição">
+      <div class="descrição">
+        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+        <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+        <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+      </div>
+      <img src="images/Angular.svg" alt="Logo do Framework Angular" class="descrição__imagem">
+    </div>
+
+    <div class="card__botões">
+      <ul class="botões">
+        <li class="botões__item"><img src="images/Favoritos.svg" alt="Favoritos"></li>
+        <li class="botões__item"><img src="images/Compras.svg" alt="Carrinho de Compras"></li>
+      </ul>
+      <a href="#" class="botões__link">Saiba mais</a>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
 </body>
 </html>
