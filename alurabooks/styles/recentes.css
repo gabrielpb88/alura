@@ -29,3 +29,22 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .recentes {
+        padding: 2em 7em;
+    }
+
+    .recentes__titulo {
+        font-size: 24px;
+    }
+
+    .recentes__item {
+        padding: 1.8em;
+    }
+
+    .recentes__link {
+        font-size: 24px;
+    }
+}

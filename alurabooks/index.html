@@ -35,9 +35,36 @@
       </li>
     </ul>
     <img src="images/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
   </div>
+
+  <ul class="opções">
+    <input type="checkbox" id="opções-menu" class="opções__botao">
+    <label for="opções-menu">
+      <li class="opções__item">Categorias</li>
+    </label>
+    <ul class="lista-menu">
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Programação</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Front-end</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Infraestrutura</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Business</a>
+      </li>
+      <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Design & UX</a>
+      </li>
+    </ul>
+    <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+    <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+  </ul>
   <div class="container">
-    <a href=""><img src="images/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+    <a href=""><img src="images/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
     <a href=""><img src="images/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
     <a href=""><img src="images/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
   </div>
@@ -47,7 +74,9 @@
   <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
   <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
 </section>
-<section>
+<section class="carousel">
+  <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+
   <!-- Slider main container -->
   <div class="swiper">
     <!-- If we need pagination -->
@@ -87,7 +116,7 @@
     </div>
   </div>
 </section>
-<section>
+<section class="carousel">
   <h2 class="carrossel__titulo">Mais vendidos</h2>
   <div class="swiper">
     <!-- If we need pagination -->
@@ -160,13 +189,40 @@
   </ul>
 </section>
 <section class="novidades">
-  <h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
-  <p class="novidades__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+  <div class="novidades__descrição">
+    <h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
+    <p class="novidades__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+  </div>
   <input type="text" class="novidades__email" placeholder="Cadastre seu e-mail">
 </section>
 <footer class="rodapé">
   <hr>
   <h2 class="rodapé__titulo">Grupo Alura</h2>
+  <ul class="rodapé__lista">
+    <li class="rodapé__lista-titulo">Educação</li>
+    <li class="rodapé__item">
+      <img src="./images/icons/Caelum.svg" alt="Logo da Caelum">
+      <a href="#" class="rodapé__link">Caelum</a>
+    </li>
+    <li class="rodapé__item">
+      <img src="./images/icons/CasaDoCodigo.svg" alt="Logo da casa do código">
+      <a href="#" class="rodapé__link">Casa do Código</a>
+    </li>
+  </ul>
+  <ul class="rodapé__lista">
+    <li class="rodapé__lista-titulo">Educação Online</li>
+    <li class="rodapé__item">
+      <img src="./images/icons/Caelum.svg" alt="">
+      <a href="#" class="rodapé__link"></a>
+    </li>
+  </ul>
+  <ul class="rodapé__lista">
+    <li class="rodapé__lista-titulo">Comunidade</li>
+    <li class="rodapé__item">
+      <img src="./images/icons/Caelum.svg" alt="">
+      <a href="#" class="rodapé__link"></a>
+    </li>
+  </ul>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

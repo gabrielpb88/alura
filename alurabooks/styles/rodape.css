@@ -9,3 +9,7 @@ hr {
 .rodapé__titulo {
     padding: 1.5em 2em;
 }
+
+@media screen and (min-width: 1024px) {
+
+}
