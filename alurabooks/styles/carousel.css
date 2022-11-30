@@ -116,7 +116,42 @@
     }
 
     .card {
-        width: 60%;
-        margin: 4em 0;
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carousel__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0 20vw 3em 20vw;
+        padding: 2em 0;
+    }
+
+    .swiper {
+        width: 40%;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .descrição {
+        margin-right: 4em;
+    }
+
+    .descrição__titulo-livro {
+        margin: 1.5em 0;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
     }
 }
