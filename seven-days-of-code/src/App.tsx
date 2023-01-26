@@ -1,11 +1,7 @@
 import React from 'react';
-import './App.css';
 
 function App() {
-  return (
-    <div className="App" data-testid="AppTestId">
-    </div>
-  );
+  return <main data-testId="AppTestId"></main>;
 }
 
 export default App;
