@@ -1,9 +1,9 @@
-import { Header, Link, Logo, MenuItem, MenuItemWrapper } from './style';
+import { Link, Logo, MenuItem, MenuItemWrapper, Navbar } from './style';
 
 const Menu = () => {
   return (
-    <Header>
-      <nav>
+    <header>
+      <Navbar>
         <Logo />
         <MenuItemWrapper>
           <MenuItem>
@@ -26,8 +26,8 @@ const Menu = () => {
             <Link to={'#'}>Meu carrinho</Link>
           </MenuItem>
         </MenuItemWrapper>
-      </nav>
-    </Header>
+      </Navbar>
+    </header>
   );
 };
 

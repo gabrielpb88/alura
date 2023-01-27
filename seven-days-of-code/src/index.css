@@ -6,3 +6,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #202020;
 }
+
+body {
+  background-image: url('assets/background.png');
+}

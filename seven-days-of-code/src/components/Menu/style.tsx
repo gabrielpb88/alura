@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { ReactComponent as logo } from '../../assets/logo.svg';
 import { Link as RouterLink } from 'react-router-dom';
 
-export const Header = styled.header`
+export const Navbar = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
